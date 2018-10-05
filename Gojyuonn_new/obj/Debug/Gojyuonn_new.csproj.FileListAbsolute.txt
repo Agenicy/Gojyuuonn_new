@@ -1,0 +1,9 @@
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Gojyuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.csprojAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Gojyuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.Properties.Resources.resources
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Gojyuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.csproj.GenerateResource.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Gojyuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Gojyuonn_new\Gojyuonn_new\bin\Debug\Gojyuonn_new.exe.config
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Gojyuonn_new\Gojyuonn_new\bin\Debug\Gojyuonn_new.exe
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Gojyuonn_new\Gojyuonn_new\bin\Debug\Gojyuonn_new.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Gojyuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.exe
+C:\Users\admin\Documents\Visual Studio 2017\Projects\Gojyuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.pdb
