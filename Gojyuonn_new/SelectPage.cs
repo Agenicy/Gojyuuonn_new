@@ -17,6 +17,9 @@ namespace Gojyuonn_new
 			InitializeComponent();
 		}
 
+		// to pass events from child to parent,
+		// you need to add a eventhandler and add handler in parent class
+		// so that we could just invoke it.
 		public event EventHandler hira_clicked;
 		public event EventHandler kata_clicked;
 		public event EventHandler kanji_clicked;

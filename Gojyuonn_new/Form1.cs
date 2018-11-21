@@ -17,6 +17,7 @@ namespace Gojyuonn_new
 		{
 			InitializeComponent();
 
+			// when loaded, only selectPage should shows up, others should hide
 			selectPage.Parent = this;
 			selectPage.Location = new Point((this.ClientSize.Width - selectPage.Width) / 2, (this.ClientSize.Height - selectPage.Height) / 2);
 
@@ -32,22 +33,22 @@ namespace Gojyuonn_new
 			kanjiyomi.Location = new Point((this.ClientSize.Width - kanjiyomi.Width) / 2, (this.ClientSize.Height - kanjiyomi.Height) / 2);
 			kanjiyomi.Hide();
 
+			// button_PrevPage should shows up when ever current page is not selectPage
 			button_PrevPage.Hide();
 
+			// set "SelectPage"'s event handlers
 			selectPage.hira_clicked += (s, e) =>
 			{
 				selectPage.Hide();
 				hiragana.Show();
 				button_PrevPage.Show();
 			};
-
 			selectPage.kata_clicked += (s, e) =>
 			{
 				selectPage.Hide();
 				katakana.Show();
 				button_PrevPage.Show();
 			};
-
 			selectPage.kanji_clicked += (s, e) =>
 			{
 				selectPage.Hide();
@@ -63,6 +64,7 @@ namespace Gojyuonn_new
 
 		private void Form1_ClientSizeChanged(object sender, EventArgs e)
 		{
+			// all of the userControls are in the middle of client window
 			selectPage.Location = new Point((this.ClientSize.Width - selectPage.Width) / 2, (this.ClientSize.Height - selectPage.Height) / 2);
 			hiragana.Location = new Point((this.ClientSize.Width - hiragana.Width) / 2, (this.ClientSize.Height - hiragana.Height) / 2);
 			katakana.Location = new Point((this.ClientSize.Width - katakana.Width) / 2, (this.ClientSize.Height - katakana.Height) / 2);
@@ -74,8 +76,9 @@ namespace Gojyuonn_new
 			hiragana.Hide();
 			katakana.Hide();
 			kanjiyomi.Hide();
-			selectPage.Show();
 			button_PrevPage.Hide();
+
+			selectPage.Show();
 		}
 	}
 }

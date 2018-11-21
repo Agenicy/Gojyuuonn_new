@@ -18,6 +18,7 @@ namespace Gojyuonn_new
 			InitializeComponent();
 
 			qusList = new List<Question>();
+			// read in json and decode datas from it
 			string json = System.IO.File.ReadAllText(qusFilename);
 			List<Question> questions = JsonConvert.DeserializeObject<List<Question>>(json);
 			if (questions != null)
@@ -35,13 +36,14 @@ namespace Gojyuonn_new
 				label1_qus.Text = qusList[now].Ques;
 			}
 
-			// make textBox & label in the right position
+			// make textBox & label in the proper position
 			textBox_ansLocation = new Point((this.Size.Width - textBox_ans.Size.Width) / 2,
 											(this.Size.Height - textBox_ans.Size.Height) / 4 * 3);
 			textBox_ans.Location = textBox_ansLocation;
 			label1_qus.Location = new Point((this.Size.Width - label1_qus.Size.Width) / 2,
 											(this.Size.Height - label1_qus.Size.Height) / 4);
 
+			// make textBox shake animation
 			textBox_ansTimer.Interval = 10;
 			textBox_ansTimer.Tick += (send, eve) =>
 			{
@@ -50,7 +52,7 @@ namespace Gojyuonn_new
 				// timerCount records how long timer have ran,  we let it run for only 500ms
 				if ((timerCount += textBox_ansTimer.Interval) >= 500)
 				{
-					// in case of location error done by shaking, we need to reset textBox to where it should be.
+					// in case of location error done during shaking, we need to reset textBox to where it should be.
 					textBox_ans.Location = textBox_ansLocation;
 					timerCount = 0;
 					textBox_ansTimer.Stop();
