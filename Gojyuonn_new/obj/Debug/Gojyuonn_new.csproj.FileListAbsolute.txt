@@ -35,3 +35,21 @@ C:\Users\weber\Documents\Visual Studio 2015\Projects\lusterflame\Gojyuuonn_new\G
 C:\Users\weber\Documents\Visual Studio 2015\Projects\lusterflame\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Resources\katagana.json
 C:\Users\weber\Documents\Visual Studio 2015\Projects\lusterflame\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Resources\hirakana.json
 C:\Users\weber\Documents\Visual Studio 2015\Projects\lusterflame\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Resources\kanjiyomi.json
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Resources\hirakana.json
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Resources\kanjiyomi.json
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Resources\katagana.json
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Gojyuonn_new.exe.config
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Gojyuonn_new.exe
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Gojyuonn_new.pdb
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\bin\Debug\Newtonsoft.Json.xml
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.csprojAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.Form1.resources
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.QusControl.resources
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.Properties.Resources.resources
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.SelectPage.resources
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.csproj.GenerateResource.cache
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.csproj.CopyComplete
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.exe
+C:\Users\admin\Documents\GitHub\Gojyuuonn_new\Gojyuonn_new\obj\Debug\Gojyuonn_new.pdb

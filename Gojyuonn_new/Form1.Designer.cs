@@ -33,10 +33,11 @@
 			// 
 			// button_PrevPage
 			// 
-			this.button_PrevPage.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-			this.button_PrevPage.Location = new System.Drawing.Point(12, 12);
+			this.button_PrevPage.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+			this.button_PrevPage.Location = new System.Drawing.Point(18, 18);
+			this.button_PrevPage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.button_PrevPage.Name = "button_PrevPage";
-			this.button_PrevPage.Size = new System.Drawing.Size(30, 30);
+			this.button_PrevPage.Size = new System.Drawing.Size(45, 45);
 			this.button_PrevPage.TabIndex = 0;
 			this.button_PrevPage.Text = "↻";
 			this.button_PrevPage.UseVisualStyleBackColor = true;
@@ -44,10 +45,11 @@
 			// 
 			// Form1
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.ClientSize = new System.Drawing.Size(786, 392);
 			this.Controls.Add(this.button_PrevPage);
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.Name = "Form1";
 			this.Text = "Kana practice";
 			this.ClientSizeChanged += new System.EventHandler(this.Form1_ClientSizeChanged);
