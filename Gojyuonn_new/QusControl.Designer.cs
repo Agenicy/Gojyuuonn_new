@@ -34,32 +34,35 @@
 			// 
 			// textBox_ans
 			// 
-			this.textBox_ans.Font = new System.Drawing.Font("UD Digi Kyokasho NK-R", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-			this.textBox_ans.Location = new System.Drawing.Point(40, 130);
+			this.textBox_ans.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+			this.textBox_ans.Location = new System.Drawing.Point(60, 195);
+			this.textBox_ans.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.textBox_ans.Name = "textBox_ans";
-			this.textBox_ans.Size = new System.Drawing.Size(120, 47);
+			this.textBox_ans.Size = new System.Drawing.Size(178, 75);
 			this.textBox_ans.TabIndex = 3;
 			this.textBox_ans.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_ans_KeyDown);
 			// 
 			// label1_qus
 			// 
 			this.label1_qus.AutoSize = true;
-			this.label1_qus.Font = new System.Drawing.Font("UD Digi Kyokasho NK-R", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-			this.label1_qus.Location = new System.Drawing.Point(56, 42);
+			this.label1_qus.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+			this.label1_qus.Location = new System.Drawing.Point(84, 63);
+			this.label1_qus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1_qus.Name = "label1_qus";
-			this.label1_qus.Size = new System.Drawing.Size(88, 64);
+			this.label1_qus.Size = new System.Drawing.Size(121, 108);
 			this.label1_qus.TabIndex = 2;
-			this.label1_qus.Text = "あ";
+			this.label1_qus.Text = "Q";
 			this.label1_qus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// Hiragana
+			// QusControl
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.Controls.Add(this.textBox_ans);
 			this.Controls.Add(this.label1_qus);
-			this.Name = "Hiragana";
-			this.Size = new System.Drawing.Size(200, 200);
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.Name = "QusControl";
+			this.Size = new System.Drawing.Size(300, 300);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

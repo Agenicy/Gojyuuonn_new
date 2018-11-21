@@ -8,6 +8,11 @@ namespace Gojyuonn_new
 {
 	public class Question
 	{
+		public int Index
+		{
+			get;
+			set;
+		}
 		public string Ques
 		{
 			get;
