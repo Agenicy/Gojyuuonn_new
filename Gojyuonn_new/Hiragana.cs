@@ -16,84 +16,84 @@ namespace Gojyuonn_new
 		{
 			InitializeComponent();
 
-			qusList = new List<Kana>
+			qusList = new List<Question>
 			{
-				new Kana(new string[] {"a"}, "あ"),
-				new Kana(new string[] {"i", "yi"}, "い"),
-				new Kana(new string[] {"u"}, "う"),
-				new Kana(new string[] {"e", "ye"}, "え"),
-				new Kana(new string[] {"o"}, "お"),
-				new Kana(new string[] {"ka", "ca"}, "か"),
-				new Kana(new string[] {"ki"}, "き"),
-				new Kana(new string[] {"ku", "cu"}, "く"),
-				new Kana(new string[] {"ke"}, "け"),
-				new Kana(new string[] {"ko", "co"}, "こ"),
-				new Kana(new string[] {"sa"}, "さ"),
-				new Kana(new string[] {"shi", "si", "ci"}, "し"),
-				new Kana(new string[] {"su"}, "す"),
-				new Kana(new string[] {"se", "ce"}, "せ"),
-				new Kana(new string[] {"so"}, "そ"),
-				new Kana(new string[] {"ta"}, "た"),
-				new Kana(new string[] {"chi", "ti"}, "ち"),
-				new Kana(new string[] {"tsu", "tu"}, "つ"),
-				new Kana(new string[] {"te"}, "て"),
-				new Kana(new string[] {"to"}, "と"),
-				new Kana(new string[] {"na"}, "な"),
-				new Kana(new string[] {"ni"}, "に"),
-				new Kana(new string[] {"nu"}, "ぬ"),
-				new Kana(new string[] {"ne"}, "ね"),
-				new Kana(new string[] {"no"}, "の"),
-				new Kana(new string[] {"ha"}, "は"),
-				new Kana(new string[] {"hi"}, "ひ"),
-				new Kana(new string[] {"hu", "fu"}, "ふ"),
-				new Kana(new string[] {"he"}, "へ"),
-				new Kana(new string[] {"ho"}, "ほ"),
-				new Kana(new string[] {"ma"}, "ま"),
-				new Kana(new string[] {"mi"}, "み"),
-				new Kana(new string[] {"mu"}, "む"),
-				new Kana(new string[] {"me"}, "め"),
-				new Kana(new string[] {"mo"}, "も"),
-				new Kana(new string[] {"ya"}, "や"),
-				new Kana(new string[] {"yu"}, "ゆ"),
-				new Kana(new string[] {"yo"}, "よ"),
-				new Kana(new string[] {"ra"}, "ら"),
-				new Kana(new string[] {"ri"}, "り"),
-				new Kana(new string[] {"ru"}, "る"),
-				new Kana(new string[] {"re"}, "れ"),
-				new Kana(new string[] {"ro"}, "ろ"),
-				new Kana(new string[] {"wa"}, "わ"),
-				new Kana(new string[] {"wo"}, "を"),
-				new Kana(new string[] {"n", "nn"}, "ん"),
-				new Kana(new string[] {"ga"}, "が"),
-				new Kana(new string[] {"gi"}, "ぎ"),
-				new Kana(new string[] {"gu"}, "ぐ"),
-				new Kana(new string[] {"ge"}, "げ"),
-				new Kana(new string[] {"go"}, "ご"),
-				new Kana(new string[] {"za"}, "ざ"),
-				new Kana(new string[] {"zi", "ji"}, "じ"),
-				new Kana(new string[] {"zu"}, "ず"),
-				new Kana(new string[] {"ze"}, "ぜ"),
-				new Kana(new string[] {"zo"}, "ぞ"),
-				new Kana(new string[] {"da"}, "だ"),
-				new Kana(new string[] {"di"}, "ぢ"),
-				new Kana(new string[] {"du"}, "づ"),
-				new Kana(new string[] {"de"}, "で"),
-				new Kana(new string[] {"do"}, "ど"),
-				new Kana(new string[] {"ba"}, "ば"),
-				new Kana(new string[] {"bi"}, "び"),
-				new Kana(new string[] {"bu"}, "ぶ"),
-				new Kana(new string[] {"be"}, "べ"),
-				new Kana(new string[] {"bo"}, "ぼ"),
-				new Kana(new string[] {"pa"}, "ぱ"),
-				new Kana(new string[] {"pi"}, "ぴ"),
-				new Kana(new string[] {"pu"}, "ぷ"),
-				new Kana(new string[] {"pe"}, "ぺ"),
-				new Kana(new string[] {"po"}, "ぽ"),
+				new Question(new string[] {"a"}, "あ"),
+				new Question(new string[] {"i", "yi"}, "い"),
+				new Question(new string[] {"u"}, "う"),
+				new Question(new string[] {"e", "ye"}, "え"),
+				new Question(new string[] {"o"}, "お"),
+				new Question(new string[] {"ka", "ca"}, "か"),
+				new Question(new string[] {"ki"}, "き"),
+				new Question(new string[] {"ku", "cu"}, "く"),
+				new Question(new string[] {"ke"}, "け"),
+				new Question(new string[] {"ko", "co"}, "こ"),
+				new Question(new string[] {"sa"}, "さ"),
+				new Question(new string[] {"shi", "si", "ci"}, "し"),
+				new Question(new string[] {"su"}, "す"),
+				new Question(new string[] {"se", "ce"}, "せ"),
+				new Question(new string[] {"so"}, "そ"),
+				new Question(new string[] {"ta"}, "た"),
+				new Question(new string[] {"chi", "ti"}, "ち"),
+				new Question(new string[] {"tsu", "tu"}, "つ"),
+				new Question(new string[] {"te"}, "て"),
+				new Question(new string[] {"to"}, "と"),
+				new Question(new string[] {"na"}, "な"),
+				new Question(new string[] {"ni"}, "に"),
+				new Question(new string[] {"nu"}, "ぬ"),
+				new Question(new string[] {"ne"}, "ね"),
+				new Question(new string[] {"no"}, "の"),
+				new Question(new string[] {"ha"}, "は"),
+				new Question(new string[] {"hi"}, "ひ"),
+				new Question(new string[] {"hu", "fu"}, "ふ"),
+				new Question(new string[] {"he"}, "へ"),
+				new Question(new string[] {"ho"}, "ほ"),
+				new Question(new string[] {"ma"}, "ま"),
+				new Question(new string[] {"mi"}, "み"),
+				new Question(new string[] {"mu"}, "む"),
+				new Question(new string[] {"me"}, "め"),
+				new Question(new string[] {"mo"}, "も"),
+				new Question(new string[] {"ya"}, "や"),
+				new Question(new string[] {"yu"}, "ゆ"),
+				new Question(new string[] {"yo"}, "よ"),
+				new Question(new string[] {"ra"}, "ら"),
+				new Question(new string[] {"ri"}, "り"),
+				new Question(new string[] {"ru"}, "る"),
+				new Question(new string[] {"re"}, "れ"),
+				new Question(new string[] {"ro"}, "ろ"),
+				new Question(new string[] {"wa"}, "わ"),
+				new Question(new string[] {"wo"}, "を"),
+				new Question(new string[] {"n", "nn"}, "ん"),
+				new Question(new string[] {"ga"}, "が"),
+				new Question(new string[] {"gi"}, "ぎ"),
+				new Question(new string[] {"gu"}, "ぐ"),
+				new Question(new string[] {"ge"}, "げ"),
+				new Question(new string[] {"go"}, "ご"),
+				new Question(new string[] {"za"}, "ざ"),
+				new Question(new string[] {"zi", "ji"}, "じ"),
+				new Question(new string[] {"zu"}, "ず"),
+				new Question(new string[] {"ze"}, "ぜ"),
+				new Question(new string[] {"zo"}, "ぞ"),
+				new Question(new string[] {"da"}, "だ"),
+				new Question(new string[] {"di"}, "ぢ"),
+				new Question(new string[] {"du"}, "づ"),
+				new Question(new string[] {"de"}, "で"),
+				new Question(new string[] {"do"}, "ど"),
+				new Question(new string[] {"ba"}, "ば"),
+				new Question(new string[] {"bi"}, "び"),
+				new Question(new string[] {"bu"}, "ぶ"),
+				new Question(new string[] {"be"}, "べ"),
+				new Question(new string[] {"bo"}, "ぼ"),
+				new Question(new string[] {"pa"}, "ぱ"),
+				new Question(new string[] {"pi"}, "ぴ"),
+				new Question(new string[] {"pu"}, "ぷ"),
+				new Question(new string[] {"pe"}, "ぺ"),
+				new Question(new string[] {"po"}, "ぽ")
 			};
 
 			// pre-load first question
 			now = rand.Next(qusList.Count);
-			label1_qus.Text = qusList[now].character;
+			label1_qus.Text = qusList[now].Ques;
 
 			// make textBox & label in the right position
 			textBox_ansLocation = new Point((this.Size.Width - textBox_ans.Size.Width) / 2,
@@ -119,7 +119,7 @@ namespace Gojyuonn_new
 		}
 
 		Random rand = new Random();
-		List<Kana> qusList;
+		List<Question> qusList;
 		int now;
 		Point textBox_ansLocation;
 		Timer textBox_ansTimer = new Timer();
@@ -136,11 +136,11 @@ namespace Gojyuonn_new
 					textBox_ans.Text = "";
 					// next question
 					now = rand.Next(qusList.Count);
-					label1_qus.Text = qusList[now].character;
+					label1_qus.Text = qusList[now].Ques;
 				}
 				else if (textBox_ans.Text == "\\ans")
 				{
-					textBox_ans.Text = qusList[now].yomi[0];
+					textBox_ans.Text = qusList[now].Ans[0];
 				}
 				else
 				{

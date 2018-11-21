@@ -58,7 +58,7 @@
     <Compile Include="Hiragana.Designer.cs">
       <DependentUpon>Hiragana.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kana.cs" />
+    <Compile Include="Question.cs" />
     <Compile Include="Katakana.cs">
       <SubType>UserControl</SubType>
     </Compile>

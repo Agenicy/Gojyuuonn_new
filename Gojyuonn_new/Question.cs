@@ -6,28 +6,28 @@ using System.Threading.Tasks;
 
 namespace Gojyuonn_new
 {
-	class Kana
+	class Question
 	{
-		public string character
+		public string Ques
 		{
 			get;
 			private set;
 		}
-		public string[] yomi
+		public string[] Ans
 		{
 			get;
 			private set;
 		}
 
-		public Kana(string[] yomi, string character)
+		public Question(string[] yomi, string character)
 		{
-			this.yomi = yomi;
-			this.character = character;
+			this.Ans = yomi;
+			this.Ques = character;
 		}
 
 		public bool check(string msg)
 		{
-			foreach (string i in yomi)
+			foreach (string i in Ans)
 				if (msg == i)
 					return true;
 			return false;
