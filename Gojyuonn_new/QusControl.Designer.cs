@@ -1,6 +1,6 @@
 ﻿namespace Gojyuonn_new
 {
-	partial class Katakana
+	partial class QusControl
 	{
 		/// <summary> 
 		/// 設計工具所需的變數。
@@ -35,30 +35,30 @@
 			// textBox_ans
 			// 
 			this.textBox_ans.Font = new System.Drawing.Font("UD Digi Kyokasho NK-R", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-			this.textBox_ans.Location = new System.Drawing.Point(40, 121);
+			this.textBox_ans.Location = new System.Drawing.Point(40, 130);
 			this.textBox_ans.Name = "textBox_ans";
 			this.textBox_ans.Size = new System.Drawing.Size(120, 47);
-			this.textBox_ans.TabIndex = 5;
+			this.textBox_ans.TabIndex = 3;
 			this.textBox_ans.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_ans_KeyDown);
 			// 
 			// label1_qus
 			// 
 			this.label1_qus.AutoSize = true;
 			this.label1_qus.Font = new System.Drawing.Font("UD Digi Kyokasho NK-R", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-			this.label1_qus.Location = new System.Drawing.Point(56, 33);
+			this.label1_qus.Location = new System.Drawing.Point(56, 42);
 			this.label1_qus.Name = "label1_qus";
-			this.label1_qus.Size = new System.Drawing.Size(85, 64);
-			this.label1_qus.TabIndex = 4;
-			this.label1_qus.Text = "ア";
+			this.label1_qus.Size = new System.Drawing.Size(88, 64);
+			this.label1_qus.TabIndex = 2;
+			this.label1_qus.Text = "あ";
 			this.label1_qus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// Katakana
+			// Hiragana
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.Controls.Add(this.textBox_ans);
 			this.Controls.Add(this.label1_qus);
-			this.Name = "Katakana";
+			this.Name = "Hiragana";
 			this.Size = new System.Drawing.Size(200, 200);
 			this.ResumeLayout(false);
 			this.PerformLayout();

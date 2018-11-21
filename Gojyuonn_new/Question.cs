@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Gojyuonn_new
 {
-	class Question
+	public class Question
 	{
 		public string Ques
 		{
 			get;
-			private set;
+			set;
 		}
 		public string[] Ans
 		{
 			get;
-			private set;
+			set;
 		}
 
 		public Question(string[] yomi, string character)

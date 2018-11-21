@@ -19,6 +19,7 @@ namespace Gojyuonn_new
 
 		public event EventHandler hira_clicked;
 		public event EventHandler kata_clicked;
+		public event EventHandler kanji_clicked;
 
 		private void button_select_hira_Click(object sender, EventArgs e)
 		{
@@ -28,6 +29,11 @@ namespace Gojyuonn_new
 		private void button_select_kata_Click(object sender, EventArgs e)
 		{
 			kata_clicked?.Invoke(this, e);
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			kanji_clicked?.Invoke(this, e);
 		}
 	}
 }
