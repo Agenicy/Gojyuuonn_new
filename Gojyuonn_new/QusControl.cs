@@ -36,12 +36,12 @@ namespace Gojyuonn_new
 				label1_qus.Text = qusList[now].Ques;
 			}
 
-			// make textBox & label in the proper position
-			textBox_ansLocation = new Point((this.Size.Width - textBox_ans.Size.Width) / 2,
-											(this.Size.Height - textBox_ans.Size.Height) / 4 * 3);
-			textBox_ans.Location = textBox_ansLocation;
-			label1_qus.Location = new Point((this.Size.Width - label1_qus.Size.Width) / 2,
-											(this.Size.Height - label1_qus.Size.Height) / 4);
+			//// make textBox & label in the proper position
+			//textBox_ansLocation = new Point((this.Size.Width - textBox_ans.Size.Width) / 2,
+			//								(this.Size.Height - textBox_ans.Size.Height) / 4 * 3);
+			//textBox_ans.Location = textBox_ansLocation;
+			//label1_qus.Location = new Point((this.Size.Width - label1_qus.Size.Width) / 2,
+			//								(this.Size.Height - label1_qus.Size.Height) / 4);
 
 			// make textBox shake animation
 			textBox_ansTimer.Interval = 10;
