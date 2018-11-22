@@ -1,14 +1,14 @@
 [
   {
     "Index": 1,
-    "Ques": "あ",
+    "Ques": "ア",
     "Ans": [
       "a"
     ]
   },
   {
     "Index": 2,
-    "Ques": "い",
+    "Ques": "イ",
     "Ans": [
       "i",
       "yi"
@@ -16,14 +16,14 @@
   },
   {
     "Index": 3,
-    "Ques": "う",
+    "Ques": "ウ",
     "Ans": [
       "u"
     ]
   },
   {
     "Index": 4,
-    "Ques": "え",
+    "Ques": "エ",
     "Ans": [
       "e",
       "ye"
@@ -31,14 +31,14 @@
   },
   {
     "Index": 5,
-    "Ques": "お",
+    "Ques": "オ",
     "Ans": [
       "o"
     ]
   },
   {
     "Index": 6,
-    "Ques": "か",
+    "Ques": "カ",
     "Ans": [
       "ka",
       "ca"
@@ -46,14 +46,14 @@
   },
   {
     "Index": 7,
-    "Ques": "き",
+    "Ques": "キ",
     "Ans": [
       "ki"
     ]
   },
   {
     "Index": 8,
-    "Ques": "く",
+    "Ques": "ク",
     "Ans": [
       "ku",
       "cu"
@@ -61,14 +61,14 @@
   },
   {
     "Index": 9,
-    "Ques": "け",
+    "Ques": "ケ",
     "Ans": [
       "ke"
     ]
   },
   {
     "Index": 10,
-    "Ques": "こ",
+    "Ques": "コ",
     "Ans": [
       "ko",
       "co"
@@ -76,14 +76,14 @@
   },
   {
     "Index": 11,
-    "Ques": "さ",
+    "Ques": "サ",
     "Ans": [
       "sa"
     ]
   },
   {
     "Index": 12,
-    "Ques": "し",
+    "Ques": "シ",
     "Ans": [
       "shi",
       "si",
@@ -92,14 +92,14 @@
   },
   {
     "Index": 13,
-    "Ques": "す",
+    "Ques": "ス",
     "Ans": [
       "su"
     ]
   },
   {
     "Index": 14,
-    "Ques": "せ",
+    "Ques": "セ",
     "Ans": [
       "se",
       "ce"
@@ -107,21 +107,21 @@
   },
   {
     "Index": 15,
-    "Ques": "そ",
+    "Ques": "ソ",
     "Ans": [
       "so"
     ]
   },
   {
     "Index": 16,
-    "Ques": "た",
+    "Ques": "タ",
     "Ans": [
       "ta"
     ]
   },
   {
     "Index": 17,
-    "Ques": "ち",
+    "Ques": "チ",
     "Ans": [
       "chi",
       "ti"
@@ -129,7 +129,7 @@
   },
   {
     "Index": 18,
-    "Ques": "つ",
+    "Ques": "ツ",
     "Ans": [
       "tsu",
       "tu"
@@ -137,70 +137,70 @@
   },
   {
     "Index": 19,
-    "Ques": "て",
+    "Ques": "テ",
     "Ans": [
       "te"
     ]
   },
   {
     "Index": 20,
-    "Ques": "と",
+    "Ques": "ト",
     "Ans": [
       "to"
     ]
   },
   {
     "Index": 21,
-    "Ques": "な",
+    "Ques": "ナ",
     "Ans": [
       "na"
     ]
   },
   {
     "Index": 22,
-    "Ques": "に",
+    "Ques": "ニ",
     "Ans": [
       "ni"
     ]
   },
   {
     "Index": 23,
-    "Ques": "ぬ",
+    "Ques": "ヌ",
     "Ans": [
       "nu"
     ]
   },
   {
     "Index": 24,
-    "Ques": "ね",
+    "Ques": "ネ",
     "Ans": [
       "ne"
     ]
   },
   {
     "Index": 25,
-    "Ques": "の",
+    "Ques": "ノ",
     "Ans": [
       "no"
     ]
   },
   {
     "Index": 26,
-    "Ques": "は",
+    "Ques": "ハ",
     "Ans": [
       "ha"
     ]
   },
   {
     "Index": 27,
-    "Ques": "ひ",
+    "Ques": "ヒ",
     "Ans": [
       "hi"
     ]
   },
   {
     "Index": 28,
-    "Ques": "ふ",
+    "Ques": "フ",
     "Ans": [
       "hu",
       "fu"
@@ -208,126 +208,126 @@
   },
   {
     "Index": 29,
-    "Ques": "へ",
+    "Ques": "ヘ",
     "Ans": [
       "he"
     ]
   },
   {
     "Index": 30,
-    "Ques": "ほ",
+    "Ques": "ホ",
     "Ans": [
       "ho"
     ]
   },
   {
     "Index": 31,
-    "Ques": "ま",
+    "Ques": "マ",
     "Ans": [
       "ma"
     ]
   },
   {
     "Index": 32,
-    "Ques": "み",
+    "Ques": "ミ",
     "Ans": [
       "mi"
     ]
   },
   {
     "Index": 33,
-    "Ques": "む",
+    "Ques": "ム",
     "Ans": [
       "mu"
     ]
   },
   {
     "Index": 34,
-    "Ques": "め",
+    "Ques": "メ",
     "Ans": [
       "me"
     ]
   },
   {
     "Index": 35,
-    "Ques": "も",
+    "Ques": "モ",
     "Ans": [
       "mo"
     ]
   },
   {
     "Index": 36,
-    "Ques": "や",
+    "Ques": "ヤ",
     "Ans": [
       "ya"
     ]
   },
   {
     "Index": 37,
-    "Ques": "ゆ",
+    "Ques": "ユ",
     "Ans": [
       "yu"
     ]
   },
   {
     "Index": 38,
-    "Ques": "よ",
+    "Ques": "ヨ",
     "Ans": [
       "yo"
     ]
   },
   {
     "Index": 39,
-    "Ques": "ら",
+    "Ques": "ラ",
     "Ans": [
       "ra"
     ]
   },
   {
     "Index": 40,
-    "Ques": "り",
+    "Ques": "リ",
     "Ans": [
       "ri"
     ]
   },
   {
     "Index": 41,
-    "Ques": "る",
+    "Ques": "ル",
     "Ans": [
       "ru"
     ]
   },
   {
     "Index": 42,
-    "Ques": "れ",
+    "Ques": "レ",
     "Ans": [
       "re"
     ]
   },
   {
     "Index": 43,
-    "Ques": "ろ",
+    "Ques": "ロ",
     "Ans": [
       "ro"
     ]
   },
   {
     "Index": 44,
-    "Ques": "わ",
+    "Ques": "ワ",
     "Ans": [
       "wa"
     ]
   },
   {
     "Index": 45,
-    "Ques": "を",
+    "Ques": "ヲ",
     "Ans": [
       "wo"
     ]
   },
   {
     "Index": 46,
-    "Ques": "ん",
+    "Ques": "ン",
     "Ans": [
       "n",
       "nn"
@@ -335,49 +335,49 @@
   },
   {
     "Index": 47,
-    "Ques": "が",
+    "Ques": "ガ",
     "Ans": [
       "ga"
     ]
   },
   {
     "Index": 48,
-    "Ques": "ぎ",
+    "Ques": "ギ",
     "Ans": [
       "gi"
     ]
   },
   {
     "Index": 49,
-    "Ques": "ぐ",
+    "Ques": "グ",
     "Ans": [
       "gu"
     ]
   },
   {
     "Index": 50,
-    "Ques": "げ",
+    "Ques": "ゲ",
     "Ans": [
       "ge"
     ]
   },
   {
     "Index": 51,
-    "Ques": "ご",
+    "Ques": "ゴ",
     "Ans": [
       "go"
     ]
   },
   {
     "Index": 52,
-    "Ques": "ざ",
+    "Ques": "ザ",
     "Ans": [
       "za"
     ]
   },
   {
     "Index": 53,
-    "Ques": "じ",
+    "Ques": "ジ",
     "Ans": [
       "zi",
       "ji"
@@ -385,126 +385,126 @@
   },
   {
     "Index": 54,
-    "Ques": "ず",
+    "Ques": "ズ",
     "Ans": [
       "zu"
     ]
   },
   {
     "Index": 55,
-    "Ques": "ぜ",
+    "Ques": "ゼ",
     "Ans": [
       "ze"
     ]
   },
   {
     "Index": 56,
-    "Ques": "ぞ",
+    "Ques": "ゾ",
     "Ans": [
       "zo"
     ]
   },
   {
     "Index": 57,
-    "Ques": "だ",
+    "Ques": "ダ",
     "Ans": [
       "da"
     ]
   },
   {
     "Index": 58,
-    "Ques": "ぢ",
+    "Ques": "ヂ",
     "Ans": [
       "di"
     ]
   },
   {
     "Index": 59,
-    "Ques": "づ",
+    "Ques": "ヅ",
     "Ans": [
       "du"
     ]
   },
   {
     "Index": 60,
-    "Ques": "で",
+    "Ques": "デ",
     "Ans": [
       "de"
     ]
   },
   {
     "Index": 61,
-    "Ques": "ど",
+    "Ques": "ド",
     "Ans": [
       "do"
     ]
   },
   {
     "Index": 62,
-    "Ques": "ば",
+    "Ques": "バ",
     "Ans": [
       "ba"
     ]
   },
   {
     "Index": 63,
-    "Ques": "び",
+    "Ques": "ビ",
     "Ans": [
       "bi"
     ]
   },
   {
     "Index": 64,
-    "Ques": "ぶ",
+    "Ques": "ブ",
     "Ans": [
       "bu"
     ]
   },
   {
     "Index": 65,
-    "Ques": "べ",
+    "Ques": "ベ",
     "Ans": [
       "be"
     ]
   },
   {
     "Index": 66,
-    "Ques": "ぼ",
+    "Ques": "ボ",
     "Ans": [
       "bo"
     ]
   },
   {
     "Index": 67,
-    "Ques": "ぱ",
+    "Ques": "パ",
     "Ans": [
       "pa"
     ]
   },
   {
     "Index": 68,
-    "Ques": "ぴ",
+    "Ques": "ピ",
     "Ans": [
       "pi"
     ]
   },
   {
     "Index": 69,
-    "Ques": "ぷ",
+    "Ques": "プ",
     "Ans": [
       "pu"
     ]
   },
   {
     "Index": 70,
-    "Ques": "ぺ",
+    "Ques": "ペ",
     "Ans": [
       "pe"
     ]
   },
   {
     "Index": 71,
-    "Ques": "ぽ",
+    "Ques": "ポ",
     "Ans": [
       "po"
     ]
