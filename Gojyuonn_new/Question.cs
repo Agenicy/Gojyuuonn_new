@@ -8,21 +8,9 @@ namespace Gojyuonn_new
 {
 	public class Question
 	{
-		public int Index
-		{
-			get;
-			set;
-		}
-		public string Ques
-		{
-			get;
-			set;
-		}
-		public string[] Ans
-		{
-			get;
-			set;
-		}
+		public int Index;
+		public string Ques;
+		public string[] Ans;
 
 		public Question(string[] yomi, string character)
 		{

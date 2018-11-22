@@ -36,19 +36,14 @@ namespace Gojyuonn_new
 				label1_qus.Text = qusList[now].Ques;
 			}
 
-			//// make textBox & label in the proper position
-			//textBox_ansLocation = new Point((this.Size.Width - textBox_ans.Size.Width) / 2,
-			//								(this.Size.Height - textBox_ans.Size.Height) / 4 * 3);
-			//textBox_ans.Location = textBox_ansLocation;
-			//label1_qus.Location = new Point((this.Size.Width - label1_qus.Size.Width) / 2,
-			//								(this.Size.Height - label1_qus.Size.Height) / 4);
+			textBox_ansLocation = textBox_ans.Location;
 
 			// make textBox shake animation
 			textBox_ansTimer.Interval = 10;
 			textBox_ansTimer.Tick += (send, eve) =>
 			{
 				// shake it 5 period per 500ms, left and right 3px.
-				textBox_ans.Location = new Point(textBox_ansLocation.X + Convert.ToInt32(3 * Math.Cos((double)timerCount / 500 * 5 * 2 * Math.PI)), textBox_ansLocation.Y);
+				textBox_ans.Location = new Point(textBox_ansLocation.X + (int)(3 * Math.Cos((double)timerCount / 500 * 5 * 2 * Math.PI)), textBox_ansLocation.Y);
 				// timerCount records how long timer have ran,  we let it run for only 500ms
 				if ((timerCount += textBox_ansTimer.Interval) >= 500)
 				{
@@ -66,6 +61,15 @@ namespace Gojyuonn_new
 		Point textBox_ansLocation;
 		Timer textBox_ansTimer = new Timer();
 		int timerCount;
+
+		public Font font
+		{
+			set
+			{
+				textBox_ans.Font = value;
+				label1_qus.Font = value;
+			}
+		}
 
 		private void textBox_ans_KeyDown(object sender, KeyEventArgs e)
 		{

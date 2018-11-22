@@ -55,21 +55,18 @@ namespace Gojyuonn_new
 				kanjiyomi.Show();
 				button_PrevPage.Show();
 			};
+
+			// set anchor to none to let it always on center
+			selectPage.Anchor = AnchorStyles.None;
+			hiragana.Anchor = AnchorStyles.None;
+			katakana.Anchor = AnchorStyles.None;
+			kanjiyomi.Anchor = AnchorStyles.None;
 		}
 
 		SelectPage selectPage = new SelectPage();
-		QusControl hiragana = new QusControl(@"Resources\katagana.json");
-		QusControl katakana = new QusControl(@"Resources\hirakana.json");
+		QusControl hiragana = new QusControl(@"Resources\hirakana.json");
+		QusControl katakana = new QusControl(@"Resources\katagana.json");
 		QusControl kanjiyomi = new QusControl(@"Resources\kanjiyomi.json");
-
-		private void Form1_ClientSizeChanged(object sender, EventArgs e)
-		{
-			// all of the userControls are in the middle of client window
-			selectPage.Location = new Point((this.ClientSize.Width - selectPage.Width) / 2, (this.ClientSize.Height - selectPage.Height) / 2);
-			hiragana.Location = new Point((this.ClientSize.Width - hiragana.Width) / 2, (this.ClientSize.Height - hiragana.Height) / 2);
-			katakana.Location = new Point((this.ClientSize.Width - katakana.Width) / 2, (this.ClientSize.Height - katakana.Height) / 2);
-			kanjiyomi.Location = new Point((this.ClientSize.Width - kanjiyomi.Width) / 2, (this.ClientSize.Height - kanjiyomi.Height) / 2);
-		}
 
 		private void button_PrevPage_Click(object sender, EventArgs e)
 		{
@@ -79,6 +76,17 @@ namespace Gojyuonn_new
 			button_PrevPage.Hide();
 
 			selectPage.Show();
+		}
+
+		private void 字體ToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			if(fontDialog1.ShowDialog() == DialogResult.OK)
+			{
+				var font = fontDialog1.Font;
+				hiragana.font = font;
+				katakana.font = font;
+				kanjiyomi.font = font;
+			}
 		}
 	}
 }

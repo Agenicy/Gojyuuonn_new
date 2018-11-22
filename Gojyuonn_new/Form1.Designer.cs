@@ -29,37 +29,63 @@
 		private void InitializeComponent()
 		{
 			this.button_PrevPage = new System.Windows.Forms.Button();
+			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+			this.字體ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.fontDialog1 = new System.Windows.Forms.FontDialog();
+			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// button_PrevPage
 			// 
 			this.button_PrevPage.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-			this.button_PrevPage.Location = new System.Drawing.Point(18, 18);
-			this.button_PrevPage.Margin = new System.Windows.Forms.Padding(4);
+			this.button_PrevPage.Location = new System.Drawing.Point(12, 27);
 			this.button_PrevPage.Name = "button_PrevPage";
-			this.button_PrevPage.Size = new System.Drawing.Size(45, 45);
+			this.button_PrevPage.Size = new System.Drawing.Size(30, 30);
 			this.button_PrevPage.TabIndex = 0;
 			this.button_PrevPage.Text = "↻";
 			this.button_PrevPage.UseVisualStyleBackColor = true;
 			this.button_PrevPage.Click += new System.EventHandler(this.button_PrevPage_Click);
 			// 
+			// menuStrip1
+			// 
+			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.字體ToolStripMenuItem});
+			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+			this.menuStrip1.Name = "menuStrip1";
+			this.menuStrip1.Size = new System.Drawing.Size(385, 24);
+			this.menuStrip1.TabIndex = 1;
+			this.menuStrip1.Text = "menuStrip1";
+			// 
+			// 字體ToolStripMenuItem
+			// 
+			this.字體ToolStripMenuItem.Name = "字體ToolStripMenuItem";
+			this.字體ToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
+			this.字體ToolStripMenuItem.Text = "字體(font)";
+			this.字體ToolStripMenuItem.Click += new System.EventHandler(this.字體ToolStripMenuItem_Click);
+			// 
 			// Form1
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(578, 544);
+			this.ClientSize = new System.Drawing.Size(385, 363);
 			this.Controls.Add(this.button_PrevPage);
-			this.Margin = new System.Windows.Forms.Padding(4);
+			this.Controls.Add(this.menuStrip1);
+			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "Form1";
 			this.Text = "Kana practice";
-			this.ClientSizeChanged += new System.EventHandler(this.Form1_ClientSizeChanged);
+			this.menuStrip1.ResumeLayout(false);
+			this.menuStrip1.PerformLayout();
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 
 		#endregion
 
 		private System.Windows.Forms.Button button_PrevPage;
+		private System.Windows.Forms.MenuStrip menuStrip1;
+		private System.Windows.Forms.ToolStripMenuItem 字體ToolStripMenuItem;
+		private System.Windows.Forms.FontDialog fontDialog1;
 	}
 }
 
